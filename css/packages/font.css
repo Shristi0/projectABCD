@@ -1,0 +1,73 @@
+/* Mukta Font start */
+
+@font-face {
+  font-family: "Mukta";
+  font-weight: 300;
+  src: url(/assets/font/mukta/Mukta-Light.ttf);
+}
+
+@font-face {
+  font-family: "Mukta";
+  font-weight: 400;
+  src: url(/assets/font/mukta/Mukta-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Mukta";
+  font-weight: 500;
+  src: url(/assets/font/mukta/Mukta-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: "Mukta";
+  font-weight: 600;
+  src: url(/assets/font/mukta/Mukta-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: "Mukta";
+  font-weight: 700;
+  src: url(/assets/font/mukta/Mukta-Bold.ttf);
+}
+@font-face {
+  font-family: "Mukta";
+  font-weight: 800;
+  src: url(/assets/font/mukta/Mukta-ExtraBold.ttf);
+}
+
+/* Poppins start */
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 300;
+  src: url(/assets/font/mukta/Mukta-Light.ttf);
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 400;
+  src: url(/assets/font/Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 500;
+  src: url(/assets/font/Poppins/Poppins-Medium.ttf);
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 600;
+  src: url(/assets/font/Poppins/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 700;
+  src: url(/assets/font/Poppins/Poppins-Bold.ttf);
+}
+@font-face {
+  font-family: "Poppins";
+  font-weight: 800;
+  src: url(/assets/font/Poppins/Poppins-ExtraBold.ttf);
+}

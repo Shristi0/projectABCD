@@ -1,0 +1,264 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+body {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: clamp(14px, 14px + 2 * (100vw - 320px) / 1600, 16px);
+  line-height: 1.6;
+  background-color: #121212;
+  color: white;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+.h1 {
+  font-size: clamp(42px, 42px + 10 * (100vw - 320px) / 1600, 60px);
+  font-family: "Poppins";
+  line-height: 80px;
+}
+
+h2,
+.h2 {
+  font-size: clamp(28px, 28px + 6 * (100vw - 320px) / 1600, 48px);
+  line-height: 64px;
+  font-family: "Poppins";
+  font-weight: 800;
+}
+
+h3 {
+  font-size: clamp(22px, 26px + 2 * (100vw - 320px) / 1600, 32px);
+  line-height: 137.7%;
+  font-family: "source-serif-pro";
+  font-weight: 600;
+}
+
+.title1 {
+  font-size: clamp(22px, 26px + 2 * (100vw - 320px) / 1600, 24px);
+  line-height: 137.7%;
+  font-family: "source-serif-pro";
+  font-weight: 600;
+}
+
+.h4,
+h4 {
+  font-size: clamp(16px, 16px + 2 * (100vw - 320px) / 1600, 18px);
+  line-height: normal;
+  font-weight: 600;
+}
+
+.title2 {
+  font-size: clamp(16px, 16px + 2 * (100vw - 320px) / 1600, 18px);
+  line-height: normal;
+  font-weight: 600;
+}
+
+.h5,
+h5 {
+  font-size: clamp(14px, 14px + 2 * (100vw - 320px) / 1600, 16px);
+  line-height: normal;
+  font-weight: 400;
+}
+
+.para1 {
+  font-size: clamp(14px, 14px + 2 * (100vw - 320px) / 1600, 16px);
+  line-height: normal;
+  font-weight: 400;
+}
+
+h6 {
+  font-size: clamp(14px, 14px + 2 * (100vw - 320px) / 1600, 16px);
+  line-height: 142.2%;
+  font-weight: 400;
+}
+
+p {
+  font-size: clamp(14px, 14px + 2 * (100vw - 320px) / 1600, 16px);
+}
+
+.para2 {
+  font-size: clamp(14px, 14px + 2 * (100vw - 320px) / 1600, 16px);
+  line-height: 142.2%;
+  font-weight: 400;
+}
+
+.para3 {
+  font-size: clamp(14px, 14px + 2 * (100vw - 320px) / 1600, 16px);
+  line-height: normal;
+  font-weight: 400;
+}
+
+.fs-22 {
+  font-size: clamp(20px, 20px + 2 * (100vw - 320px) / 1600, 22px);
+  line-height: 1.2;
+}
+
+.fs-36 {
+  font-size: clamp(30px, 30px + 6 * (100vw - 320px) / 1600, 36px);
+  line-height: 1.2;
+}
+
+.fs-15 {
+  font-size: 15px;
+}
+
+.fs-14 {
+  font-size: 14px;
+}
+
+.fs-20 {
+  font-size: 20px;
+}
+
+.fw-300 {
+  font-weight: 300;
+}
+
+.fw-400 {
+  font-weight: 400;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.fw-600 {
+  font-weight: 600;
+}
+
+.fw-700 {
+  font-weight: 700;
+}
+
+.fw-800 {
+  font-weight: 800;
+}
+
+.btn-primary-abcd {
+  background: var(--primary-500);
+  padding: 12px 40px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  border: var(--primary-500);
+  border-radius: 8px;
+  position: relative;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 52px;
+  z-index: -1;
+}
+
+.outline {
+  position: relative;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  aspect-ratio: 1.33/1;
+}
+.outline img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+@media all and (min-width: 768px) {
+  .outline::before {
+    content: "";
+    position: absolute;
+    border: 5px solid var(--primary-500);
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    bottom: -53px;
+  }
+}
+.outline__right::before {
+  right: -60px;
+}
+.outline__left::before {
+  left: -60px;
+}
+
+.pb-32 {
+  padding-bottom: 32px;
+}
+
+.pb-100 {
+  padding-bottom: 100px;
+}
+
+.pb-80 {
+  padding-bottom: 80px;
+}
+
+.py-96 {
+  padding: 96px 0px;
+}
+
+.pt-120 {
+  padding-top: 120px;
+}
+
+.py-60 {
+  padding: 60px 0px;
+}
+
+.py-48 {
+  padding: 48px 0px;
+}
+
+.pt-80 {
+  padding-top: 80px;
+}
+
+.pt-48 {
+  padding-top: 48px;
+}
+
+.mt-36 {
+  margin-top: 36px;
+}
+
+.mb-36 {
+  margin-bottom: 36px;
+}
+
+.my-32 {
+  margin: 32px 0px;
+}
+
+.mt-32 {
+  margin-top: 32px;
+}
+
+.mb-32 {
+  margin-bottom: 32px;
+}
+
+.mt-24 {
+  margin-top: 24px;
+}
+
+.py-80 {
+  padding: 80px 0px;
+}/*# sourceMappingURL=global.css.map */

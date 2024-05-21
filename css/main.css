@@ -1,0 +1,9 @@
+@import url(/css/packages/bootstrap.min.css);
+@import url(/css/packages/font.css);
+@import url(/css/packages/owl.carousel.min.css);
+@import url(/css/packages/owl.theme.default.min.css);
+@import url("https://unpkg.com/aos@2.3.1/dist/aos.css");
+@import url(/css/global.css);
+@import url(/css/variable.css);
+@import url(/css/component.css);
+@import url(/css/style.css);
