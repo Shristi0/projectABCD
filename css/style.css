@@ -2,10 +2,12 @@
   height: 80vh;
   display: flex;
   align-items: center;
-  margin-top: 60px;
 }
-@media all and (min-width: 520px) {
-  #indexPage .banner {
+#indexPage .banner__content {
+  margin-top: 70px;
+}
+@media all and (min-width: 768px) {
+  #indexPage .banner__content {
     margin-top: 0px;
   }
 }
@@ -33,7 +35,7 @@
   background: rgba(22, 26, 38, 0.06);
   -webkit-backdrop-filter: blur(24px);
           backdrop-filter: blur(24px);
-  padding: 80px;
+  padding: 64px 80px;
 }
 #indexPage .brand__img {
   height: 50px;
@@ -59,6 +61,7 @@
 }
 #indexPage .video__container {
   display: grid;
+  justify-items: center;
   grid-gap: 20px;
 }
 @media all and (min-width: 768px) {
@@ -71,7 +74,8 @@
 }
 #indexPage .video__item img {
   height: 100%;
-  width: 100%;
+  width: 280px;
+  aspect-ratio: 1/1;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -599,6 +603,43 @@
   line-height: 20px;
 }
 
+#servicePage .accordion-button::after {
+  flex-shrink: 0;
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-left: auto;
+  content: "";
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-size: 1.25rem;
+  transition: transform 0.2s ease-in-out;
+}
+#servicePage .accordion-item {
+  background-color: transparent;
+}
+#servicePage .accordion-flush .accordion-item .accordion-button {
+  padding: 0px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  font-size: 1rem;
+  color: #fff;
+  text-align: left;
+  background-color: #121212;
+  border: 0;
+  border-radius: 0;
+  overflow-anchor: none;
+}
+#servicePage .accordion-button:focus {
+  z-index: 3;
+  border-color: transparent;
+  outline: 0;
+  box-shadow: none;
+}
+#servicePage .accordion-body {
+  padding: 0px 24px;
+}
 #servicePage .contact h3,
 #servicePage #contact h3 {
   font-family: Poppins;
