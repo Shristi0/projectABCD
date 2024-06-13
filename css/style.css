@@ -1,12 +1,13 @@
 #indexPage .banner {
-  position: relative;
-  margin-top: 38px;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  margin-top: 60px;
 }
-#indexPage .banner__doodle {
-  position: absolute;
-  bottom: -80px;
-  left: 0px;
-  z-index: -1;
+@media all and (min-width: 520px) {
+  #indexPage .banner {
+    margin-top: 0px;
+  }
 }
 #indexPage .banner__content h2 {
   font-style: normal;
