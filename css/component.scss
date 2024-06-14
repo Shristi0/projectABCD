@@ -177,6 +177,10 @@ header {
       border-radius: 4px;
       padding: 12px 40px;
       color: #fff;
+      margin-top: 20px;
+      @media all and (min-width: 768px) {
+        margin-top: 0px;
+      }
     }
   }
   &__hr {
