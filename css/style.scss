@@ -591,6 +591,11 @@
   }
 }
 #servicePage {
+  .content {
+    &__title {
+      font-weight: 500;
+    }
+  }
   .accordion-button::after {
     flex-shrink: 0;
     width: 1.25rem;
