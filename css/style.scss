@@ -89,7 +89,7 @@
       }
     }
     &__brand {
-      right: -30px;
+      right: -10px;
       top: 50%;
       transform: translateY(-50%);
       @media all and (min-width: 992px) {
@@ -121,7 +121,7 @@
       border: 1px solid var(--Stroke-Gradient, #5f69c8);
       background: rgba(22, 26, 38, 0.06);
       backdrop-filter: blur(24px);
-      padding: 64px 80px;
+      padding: 64px 10px;
     }
     &__img {
       height: 50px;
@@ -142,6 +142,11 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
+    }
+    .owl-carousel .owl-item {
+      display: flex !important;
+      justify-content: center !important;
+      align-items: center !important;
     }
   }
   .video {

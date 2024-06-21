@@ -93,7 +93,7 @@
   }
 }
 #indexPage .bannerRight__brand {
-  right: -30px;
+  right: -10px;
   top: 50%;
   transform: translateY(-50%);
 }
@@ -134,7 +134,7 @@
   background: rgba(22, 26, 38, 0.06);
   -webkit-backdrop-filter: blur(24px);
           backdrop-filter: blur(24px);
-  padding: 64px 80px;
+  padding: 64px 10px;
 }
 #indexPage .brand__img {
   height: 50px;
@@ -157,6 +157,11 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+#indexPage .brand .owl-carousel .owl-item {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
 }
 #indexPage .video__container {
   display: grid;
