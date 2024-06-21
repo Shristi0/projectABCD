@@ -7,7 +7,7 @@
 }
 @media all and (min-width: 768px) {
   #indexPage .banner__content {
-    margin-top: 0px;
+    margin-top: 60px;
   }
 }
 #indexPage .banner__content h2 {
@@ -27,6 +27,106 @@
   font-weight: 400;
   line-height: 32px; /* 200% */
   padding: 32px 0px;
+}
+#indexPage .mobile-screen {
+  width: 300px;
+  height: 600px;
+  border: 10px solid #333;
+  border-radius: 36px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  background-color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+#indexPage .slider {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+}
+#indexPage .slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+#indexPage .slide {
+  min-width: 100%;
+  box-sizing: border-box;
+}
+#indexPage .slide img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#indexPage .banner__right {
+  border-radius: 12px;
+  background: #272c3d;
+  -webkit-backdrop-filter: blur(7.75px);
+          backdrop-filter: blur(7.75px);
+  padding: 12px 20px;
+  position: absolute;
+}
+#indexPage .bannerRight__image {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+#indexPage .bannerRight__client {
+  top: 40px;
+  left: -30px;
+}
+@media all and (min-width: 992px) {
+  #indexPage .bannerRight__client {
+    top: 100px;
+    left: 70px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  #indexPage .bannerRight__client {
+    left: 50px;
+    top: 100px;
+  }
+}
+@media all and (max-width: 576px) {
+  #indexPage .bannerRight__client {
+    left: -5px;
+  }
+}
+#indexPage .bannerRight__brand {
+  right: -30px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+@media all and (min-width: 992px) {
+  #indexPage .bannerRight__brand {
+    right: 50px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  #indexPage .bannerRight__brand {
+    right: 30px;
+  }
+}
+#indexPage .bannerRight__rating {
+  bottom: 40px;
+  left: -30px;
+}
+@media all and (min-width: 992px) {
+  #indexPage .bannerRight__rating {
+    left: 70px;
+    bottom: 100px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  #indexPage .bannerRight__rating {
+    left: 50px;
+    bottom: 100px;
+  }
+}
+@media all and (max-width: 576px) {
+  #indexPage .bannerRight__rating {
+    left: -5px;
+  }
 }
 #indexPage .brand__wrapper {
   border-radius: 32px;
